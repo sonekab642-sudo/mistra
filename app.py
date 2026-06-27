@@ -210,7 +210,7 @@ def background_loader():
         model = Llama(
             model_path=MODEL_PATH,
             n_gpu_layers=-1,
-            n_ctx=62000,
+            n_ctx=32000,
             split_mode=1,
             tensor_split=[0.5, 0.5]
         )
