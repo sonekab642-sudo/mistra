@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+nest_asyncio
+requests
+gradio
+kaggle
+huggingface_hub
